@@ -15,32 +15,42 @@
 		header, nav, section, div, footer 	{border:1px solid grey; margin:5px; padding:8px; background-color: white;}
 		nav ul {margin:0; padding:0;}
 		nav ul li {display:inline; margin:5px;}
+
+		/* for all links on this page of code */
+    	a:link {color:gray;text-decoration: none;}
+    	/* visited link */ 
+    	a:visited {color:gray;text-decoration:none;}
+    	/* mouse over link */
+    	a:hover {text-decoration:none;color:lightgray;}
+    	/* active link */
+    	a:active {color:lightgray;text-decoration:overline;}
 	</style>
 </head>
 
 <body>
 
 	<header>
-		<h1>Header</h1>
-		<p>This is the header.  Links and logos and site nav can go here.</p>
+		<h1>Site Logo</h1>
+		<p>"We do it right - the first time!"</p>
+		<nav style="float:right;margin-top:-30px;">
+			<ul>
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+			</ul>
+		</nav>
 	</header>
 
-	<nav>
-		<ul>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-		</ul>
-	</nav>
+	
 
 	<section>
 		<h2>Section Header</h2>
-		<div>
-			<h2>Article 1</h2>
-			<p>Article material here.</p>
+		<div style="width:400px;background-color:rgb(0,120,125);">
+			<h2>Div 1</h2>
+			<p>Anything can go here.</p>
 		</div>
 
-		<div>
+		<div style="width:400px;background-color:rgb(0,155,165);">
 			<h2>Article 2</h2>
 			<p>Article material here.</p>
 		</div>
