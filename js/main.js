@@ -1,4 +1,6 @@
-var ellipse = function(x, y, width, height);
+function ellipse(x, y, width, height){
+	
+}
 // bottom circle:
 ellipse(200, 300, 150, 150);
 // middle circle:
