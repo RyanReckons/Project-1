@@ -1,7 +1,8 @@
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #e7e7e7; /* Gray */
+    color: black;
     border: none;
-    color: white;
+    /*color: white;*/
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -11,12 +12,21 @@
     cursor: pointer;
 }
 
-.button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */ 
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-.button5 {background-color: #555555;} /* Black */
+/*.button {background-color: #4CAF50;} /* Green */
+/*.button2 {background-color: #008CBA;} /* Blue */
+/*.button3 {background-color: #f44336;} /* Red */ 
+/*.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+/*.button5 {background-color: #555555;} /* Black */
 
-
+.ctr-blocks {
+  width:300px;
+  height:120px;
+  background-color:rgb(0,155,165);
+  margin:1%;
+  padding:8px;
+  float:left;
+  text-align:center;
+}
 
 .col-sm-4 {
     
