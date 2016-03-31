@@ -31,3 +31,29 @@ function playBall(){
       confirm("Maybe next time then!");
   }
 }
+
+
+function guessFavColor(){
+  var color,
+      color2,
+      color3,
+      color4,
+
+  color = prompt("Give me a color!");
+  color = color.toLowerCase();
+
+  if (color == "green"){
+    color2 = prompt("Give me another color.");
+    color2 = color2.toLowerCase();
+      if (color2 == "blue"){
+        alert("Those colors put together make turquoise!");
+      }
+  } else if (color == "blue"){
+      color2 = prompt("Give me another color.");
+      color2 = color2.toLowerCase();
+        if (color2 == "green"){
+          alert("Together those colors make turquoise!");
+        }
+  }
+
+}
