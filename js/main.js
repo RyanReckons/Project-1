@@ -62,9 +62,9 @@ function pickColor(){
   color2 = prompt("Give me another color.");
   color2 = color2.toLowerCase();
     if (color2 == "red"){
-        alert("Together those colors make turquoise!");
+        alert("Together those colors make either a brown or gray depending on the mixture!");
     } else if (color2 == "blue"){
-        alert("Those colors put together make yellow!");
+        alert("Those colors put together make turquoise!");
     } else if (color2 == "yellow"){
         alert("Together, they make a color called chartreuse!");
     } else if (color2 == "brown"){
@@ -72,17 +72,17 @@ function pickColor(){
     } else if (color2 == "pink"){
         alert("Makes a light brown!");
     } else if (color2 == "orange"){
-        alert("");
+        alert("Makes brown");
     } else if (color2 == "purple"){
-        alert("");
+        alert("Brown");
     }
   } else if (color == "blue"){
   color2 = prompt("Give me another color.");
   color2 = color2.toLowerCase();
     if (color2 == "red"){
-        alert("Together those colors make turquoise!");
+        alert("Together those colors make purple!");
     } else if (color2 == "green"){
-        alert("Those colors put together make violate!");
+        alert("Those colors put together make turquoise!");
     } else if (color2 == "yellow"){
         alert("They make green of course!");
     } else if (color2 == "brown"){
@@ -90,101 +90,101 @@ function pickColor(){
     } else if (color2 == "pink"){
         alert("Possibly a lighter shade of purple!");
     } else if (color2 == "orange"){
-        alert("");
+        alert("Variations of brown");
     } else if (color2 == "purple"){
-        alert("");
+        alert("Make indigo");
     }
   } else if (color == "yellow"){
   color2 = prompt("Give me another color.");
   color2 = color2.toLowerCase();
     if (color2 == "red"){
-        alert("Those colors put together make violate!");
+        alert("Those colors put together make orange!");
     } else if (color2 == "green"){
-        alert("Those colors put together make yellow!");
+        alert("Those colors put together make lightgreen!");
     } else if (color2 == "blue"){
-        alert("Together, those colors make orange!");
+        alert("Together, those colors make lightbrown!");
     } else if (color2 == "brown"){
-        alert("Darker pink");
+        alert("Mustard");
     } else if (color2 == "pink"){
-        alert("");
+        alert("Peach!");
     } else if (color2 == "orange"){
-        alert("");
+        alert("ligher orange");
     } else if (color2 == "purple"){
-        alert("");
+        alert("Make brown");
     }
 
   } else if (color == "brown"){
   color2 = prompt("Give me another color.");
   color2 = color2.toLowerCase();
     if (color2 == "red"){
-        alert("Those colors put together make violate!");
+        alert("Answer coming soon!");
     } else if (color2 == "green"){
-        alert("Those colors put together make yellow!");
+        alert("Answer coming soon!");
     } else if (color2 == "blue"){
-        alert("Together, those colors make orange!");
+        alert("Answer coming soon!");
     } else if (color2 == "yellow"){
         alert("Those colors make Maroon.");
     } else if (color2 == "pink"){
-        alert("");
+        alert("Answer coming soon!");
     } else if (color2 == "orange"){
-        alert("");
+        alert("Answer coming soon!");
     } else if (color2 == "purple"){
-        alert("");
+        alert("Answer coming soon!");
     }
 
   } else if (color == "pink"){
   color2 = prompt("Give me another color.");
   color2 = color2.toLowerCase();
     if (color2 == "red"){
-        alert("Those colors put together make violate!");
+        alert("Answer coming soon!");
     } else if (color2 == "green"){
-        alert("Those colors put together make yellow!");
+        alert("Answer coming soon!");
     } else if (color2 == "blue"){
-        alert("Together, those colors make orange!");
+        alert("Answer coming soon!");
     } else if (color2 == "yellow"){
-        alert("Those colors make Maroon.");
+        alert("Answer coming soon!");
     } else if (color2 == "brown"){
-        alert("Darker pink");
+        alert("Answer coming soon!");
     } else if (color2 == "orange"){
-        alert("");
+        alert("Answer coming soon!");
     } else if (color2 == "purple"){
-        alert("");
+        alert("Answer coming soon!");
     }
   } else if (color == "orange"){
   color2 = prompt("Give me another color.");
   color2 = color2.toLowerCase();
     if (color2 == "red"){
-        alert("Those colors put together make violate!");
+        alert("Answer coming soon!");
     } else if (color2 == "green"){
-        alert("Those colors put together make yellow!");
+        alert("Answer coming soon!");
     } else if (color2 == "blue"){
-        alert("Together, those colors make orange!");
+        alert("Answer coming soon!");
     } else if (color2 == "yellow"){
-        alert("Those colors make Maroon.");
+        alert("Answer coming soon!");
     } else if (color2 == "brown"){
-        alert("Darker pink");
+        alert("Answer coming soon!");
     } else if (color2 == "pink"){
-        alert("");
+        alert("Answer coming soon!");
     } else if (color2 == "purple"){
-        alert("");
+        alert("Answer coming soon!");
     }
   } else if (color == "purple"){
   color2 = prompt("Give me another color.");
   color2 = color2.toLowerCase();
     if (color2 == "blue"){
-        alert("Those colors put together make violate!");
+        alert("Answer coming soon!");
     } else if (color2 == "green"){
-        alert("Those colors put together make yellow!");
+        alert("Answer coming soon!");
     } else if (color2 == "blue"){
-        alert("Together, those colors make orange!");
+        alert("Answer coming soon!");
     } else if (color2 == "yellow"){
-        alert("Those colors make Maroon.");
+        alert("Answer coming soon!");
     } else if (color2 == "brown"){
-        alert("Darker pink");
+        alert("Answer coming soon!");
     } else if (color2 == "pink"){
-        alert("");
+        alert("Answer coming soon!");
     } else if (color2 == "orange"){
-        alert("");
+        alert("Answer coming soon!");
     }
   }
 }
