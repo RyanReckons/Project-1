@@ -188,3 +188,31 @@ function pickColor(){
     }
   }
 }
+
+/* todo list plugin */
+/*$( "#list" ).listview({
+editable: false,
+editableType: 'simple', // simple or complex
+editableForm: '', // ID of the form to be used for the complex type. 
+
+title: "View list items",
+emptyTitle: "No items to view",
+editLabel: "Edit",
+addLabel: "Add",
+doneLabel: "Done",
+addIcon: "plus",
+editIcon: "edit",
+doneIcon: "check",
+
+buttonTheme: 'a',
+buttonCorner: true,
+buttonShadow: true,
+
+itemIcon: false,
+
+collapsed: false,
+expandedIcon: 'carat-d',
+collapsedIcon: 'carat-r'
+});*/
+
+/* todo list plugin */
